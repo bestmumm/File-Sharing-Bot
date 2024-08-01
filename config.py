@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel (@HulumMovies) to use me | ሰላም ፋይሉን ለማግኘት @HulumMovies Join ያርጉ\n\nKindly Please join Channel | Join ካረጋችሁ በኋላ ከታች Try again የሚለውን ተጫኑ</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>🛎 You need to join my Channel (@HulumMovies) to use me | ሰላም ፋይሉን ለማግኘት @HulumMovies Join ያርጉ\n\n📭 Kindly Please join Channel and try again | Join ካረጋችሁ በኋላ ከታች Try again የሚለውን ተጫኑ</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
